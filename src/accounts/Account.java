@@ -1,3 +1,5 @@
+package accounts;
+
 public interface Account {
 
     void putMoney(double payment);
