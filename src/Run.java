@@ -1,7 +1,4 @@
-import accounts.Account;
-import accounts.LifeLikeInMadrit;
-import accounts.Saving;
-import accounts.SuperCash;
+import accounts.*;
 
 public class Run {
     public static void main(String[] args) {
@@ -9,12 +6,13 @@ public class Run {
         Account superCash = new SuperCash();
         Account lifeLikeInMadrit = new LifeLikeInMadrit();
         Account saving = new Saving();
+        Account changingWorld = new ChangingWorld();
 
+        for (int i = 0; i < 5; i++) {
+            changingWorld.putMoney(1);
+            System.out.println(changingWorld.checkStatus());
+        }
 
-        saving.putMoney(100);
-        saving.putMoney(100);
-        saving.putMoney(100);
-        System.out.println(saving.checkStatus());
 
     }
 }
