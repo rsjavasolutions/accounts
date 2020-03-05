@@ -25,6 +25,6 @@ public class SuperCash implements Account {
 
     @Override
     public String checkStatus() {
-        return amount + " PLN";
+        return "Status Super cash accout: " + amount + " PLN";
     }
 }

@@ -24,6 +24,6 @@ public class LifeLikeInMadrit implements Account {
 
     @Override
     public String checkStatus() {
-        return amount + " PLN";
+        return "Status Life like in Madrit accout: " + amount + " PLN";
     }
 }

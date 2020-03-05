@@ -1,8 +1,5 @@
 package accounts;
 
-//Dodać konto, które przy wypłacaniu pobiera 5% wpłacanych pieniędzy,
-// a za każdą piątą wpłatę dodaje nam 50PLN (proszę zapronować nazwę dla nowego konta).
-
 public class ChangingWorld implements Account {
 
     private double amount;
@@ -35,6 +32,6 @@ public class ChangingWorld implements Account {
 
     @Override
     public String checkStatus() {
-        return amount + " PLN";
+        return "Status Changing World accout: " + amount + " PLN";
     }
 }

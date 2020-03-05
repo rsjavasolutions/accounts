@@ -26,6 +26,6 @@ public class Saving implements Account {
 
     @Override
     public String checkStatus() {
-        return amount + " PLN";
+        return "Status Saving accout: " + amount + " PLN";
     }
 }
