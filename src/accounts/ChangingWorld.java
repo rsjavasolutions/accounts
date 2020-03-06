@@ -1,5 +1,7 @@
 package accounts;
 
+import java.math.BigDecimal;
+
 public class ChangingWorld implements Account {
 
     private double amount;
